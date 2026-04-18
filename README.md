@@ -73,4 +73,4 @@ I prefer:
 - 💼 https://www.linkedin.com/in/ravi-chandra18  
 - 📧 chandra.sk59@gmail.com  
 
-If you're building something interesting in distributed systems, observability, or payments — I'm always open to good conversations.
+If you're building something interesting in distributed systems, observability, or payments. I'm always open to good conversations.
