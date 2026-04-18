@@ -1,31 +1,28 @@
-# Hey, I'm Ravi Chandra Eluri 👋
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hello, my name is Ravi.
 
-**Senior Golang Engineer · Kubernetes & Cloud Infrastructure · Observability Platform Architect**
+I build distributed systems that still work when networks don’t.
 
-10+ years building production-grade distributed systems. Currently at Genuine Parts Company (GPC) in Atlanta — delivering a Payment Acceptance Solution projected to save millions in transaction processing costs across North American retail. Deep in Go, Kubernetes internals, and OpenTelemetry.
+Currently working on:
+- Payment systems that handle real-time and offline scenarios
+- Kubernetes control planes (CRDs, reconciliation loops)
+- Observability pipelines (OpenTelemetry, Prometheus)
 
-[About me](https://ravichandra-eluri.com/) · [LinkedIn](https://www.linkedin.com/in/ravi-chandra18)
+[About me](https://ravichandra-eluri.com/) · [LinkedIn](https://www.linkedin.com/in/ravi-chandra18)   
 
----
+## 🧑🏻‍💻 What I Do
 
-## 🚀 What I Do
+- Build concurrent, fault-tolerant services in Go (goroutines, gRPC, event-driven patterns)
+- Design Kubernetes control planes (CRDs, controllers, reconciliation loops)
+- Develop observability pipelines using OpenTelemetry and Prometheus
+- Work across cloud infrastructure (GCP, AWS) with Terraform and containerized workloads
 
-- **Golang Microservices** → Concurrent, fault-tolerant services using Goroutines, Channels, gRPC, and event-driven architecture
-- **Kubernetes Platform Engineering** → CRD/controller development with Operator SDK, client-go, and controller-runtime; multi-cluster management
-- **Observability & Telemetry** → OpenTelemetry Collector pipelines, OTLP gRPC/HTTP, Prometheus metrics, distributed tracing, store-and-forward architectures
-- **Cloud Infrastructure** → GCP (Cloud Run, Cloud SQL, Pub/Sub), AWS (EKS, ECS, Lambda, EC2), Azure; Terraform IaC automation
+## 🏆 Key Achievement
 
----
+- **Payment Acceptance Solution:** Real-time transaction orchestration across GCP and on-prem infrastructure. WebSocket-based communication with PIN-pad devices, with offline fallback (SAF). Built with OpenTelemetry + Prometheus for production observability and PCI-compliant flows.
 
-## 🏆 Key Work
+- **Cloud Telemetry Platform:** Kubernetes-native telemetry control plane using OpenTelemetry on GDC. Designed OTLP pipelines, sampling strategies, and reliable data delivery for edge environments.
 
-- **Payment Acceptance Solution:** Real-time transaction orchestration over GCP + on-premise Fortinet infrastructure. WebSocket communication layer to PIN-pad devices. SAF (Store and Forward) mechanism for offline resilience. EMV/MSR compliance. Integrated OpenTelemetry + Prometheus for production observability. PCI-compliant flows end to end.
-
-- **Cloud Telemetry Platform:** Building Kubernetes-native telemetry control plane with OpenTelemetry on Google Distributed Cloud (GDC). OTLP pipeline design, tail-based vs head-based sampling, Prometheus bridging, store-and-forward patterns for edge environments.
-
-- **Kubernetes CRD Ecosystem:** Custom Resource Definitions and controllers using client-go and Operator SDK. Dynamic reconciliation loops, informers, work queues. OIDC integration for secure authentication across distributed workloads.
-
----
+- **Kubernetes CRD Ecosystem:** Built custome CRDs and controllers using client-go and Operator SDK, implementing automated reconciliation loops and secure OIDC-based integrations.
 
 ## 🛠 Tech Stack
 
@@ -51,39 +48,29 @@
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
----
-
 ## 📂 Featured Repositories
-
-> *Repos incoming — migrating and publishing shortly*
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| `otel-collector-operator` | Kubernetes operator for managing OTel Collector deployments | Go · Operator SDK · OTLP |
-| `k8s-crd-patterns` | Practical patterns: reconcilers, informers, work queues | Go · client-go · controller-runtime |
-| `store-and-forward-telemetry` | Edge telemetry with offline buffering and auto-reconciliation | Go · GDC · OpenTelemetry |
-| `grpc-gateway-patterns` | gRPC + REST gateway patterns with Protocol Buffers | Go · gRPC · Protobuf |
+| `otel-collector-operator` | Manage OpenTelemetry pipelines via Kubernetes | Go · Operator SDK · OTLP |
+| `k8s-crd-patterns` | Real-world controller & reconciliation patterns | Go · client-go · controller-runtime |
+| `store-and-forward-telemetry` | Reliable telemetry delivery for edge systems | Go · GDC · OpenTelemetry |
+| `grpc-gateway-patterns` | gRPC and REST gateway patterns with Protocol Buffers | Go · gRPC · Protobuf |
 
----
+## 🧠 Engineering Philosophy
 
-## 📈 GitHub Stats
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chandradevGo&layout=compact&theme=dark&hide_border=true&langs_count=6)
+> Simple systems scale.  
+> Clever systems fail at 2 AM.
 
----
+I prefer:
+- explicit over implicit  
+- predictable over magical  
+- observable over “it should work”  
 
-## 💼 Experience
+## 🤝 Let’s Connect
 
-| Company | Role | Period |
-|---------|------|--------|
-| Genuine Parts Company | Senior Golang Developer | May 2024 – Present |
-| Capital One | Sr. Golang Developer | Sep 2023 – Apr 2024 |
-| Cigna | Sr. Golang Developer | Jan 2022 – Aug 2023 |
-| Capital One | Sr. Golang Developer | Jan 2021 – Dec 2021 |
-| First Republic Bank | Sr. Golang Developer | Oct 2019 – Dec 2020 |
+- 🌐 https://ravichandra-eluri.com  
+- 💼 https://www.linkedin.com/in/ravi-chandra18  
+- 📧 chandra.sk59@gmail.com  
 
----
-
-## 🎓 Education
-
-**M.S. Computer & Information Science** — University of South Alabama  
-**B.S. Computer Science** — Sathyabama University
+If you're building something interesting in distributed systems, observability, or payments — I'm always open to good conversations.
