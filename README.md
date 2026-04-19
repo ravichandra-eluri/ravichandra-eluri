@@ -22,7 +22,7 @@ Currently working on:
 
 - **Cloud Telemetry Platform:** Kubernetes-native telemetry control plane using OpenTelemetry on GDC. Designed OTLP pipelines, sampling strategies, and reliable data delivery for edge environments.
 
-- **Kubernetes CRD Ecosystem:** Built custome CRDs and controllers using client-go and Operator SDK, implementing automated reconciliation loops and secure OIDC-based integrations.
+- **Kubernetes CRD Ecosystem:** Built custom CRDs and controllers using client-go and Operator SDK, implementing automated reconciliation loops and secure OIDC-based integrations.
 
 ## 🛠 Tech Stack
 
@@ -52,10 +52,10 @@ Currently working on:
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| `otel-collector-operator` | Manage OpenTelemetry pipelines via Kubernetes | Go · Operator SDK · OTLP |
-| `k8s-crd-patterns` | Real-world controller & reconciliation patterns | Go · client-go · controller-runtime |
-| `store-and-forward-telemetry` | Reliable telemetry delivery for edge systems | Go · GDC · OpenTelemetry |
-| `grpc-gateway-patterns` | gRPC and REST gateway patterns with Protocol Buffers | Go · gRPC · Protobuf |
+| [Otel-k8s-controller](https://github.com/ravichandra-eluri/Otel-k8s-controller) | Kubernetes-native OTel Collector operator with CRD-driven pipeline config | Go · Operator SDK · OTLP |
+| [store-forward-otel](https://github.com/ravichandra-eluri/store-forward-otel) | Reliable telemetry delivery for edge — buffers OTLP spans and replays on reconnect | Go · GDC · OpenTelemetry |
+| [grpc-gateway-patterns](https://github.com/ravichandra-eluri/grpc-gateway-patterns) | gRPC and REST gateway patterns with Protocol Buffers and K8s manifests | Go · gRPC · Protobuf |
+| [golang-engineering-lab](https://github.com/ravichandra-eluri/golang-engineering-lab) | Curated backend patterns — concurrency, auth, observability, system design | Go · Gin · PostgreSQL |
 
 ## 🧠 Engineering Philosophy
 
