@@ -52,10 +52,10 @@ Currently working on:
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [Otel-k8s-controller](https://github.com/ravichandra-eluri/Otel-k8s-controller) | Kubernetes-native OTel Collector operator with CRD-driven pipeline config | Go · Operator SDK · OTLP |
-| [store-forward-otel](https://github.com/ravichandra-eluri/store-forward-otel) | Reliable telemetry delivery for edge — buffers OTLP spans and replays on reconnect | Go · GDC · OpenTelemetry |
+| [Otel-k8s-controller](https://github.com/ravichandra-eluri/Otel-k8s-controller) | Kubernetes native OTel Collector operator with CRD driven pipeline config | Go · Operator SDK · OTLP |
+| [store-forward-otel](https://github.com/ravichandra-eluri/store-forward-otel) | Reliable telemetry delivery for edge, buffers OTLP spans and replays on reconnect | Go · GDC · OpenTelemetry |
 | [grpc-gateway-patterns](https://github.com/ravichandra-eluri/grpc-gateway-patterns) | gRPC and REST gateway patterns with Protocol Buffers and K8s manifests | Go · gRPC · Protobuf |
-| [golang-engineering-lab](https://github.com/ravichandra-eluri/golang-engineering-lab) | Curated backend patterns — concurrency, auth, observability, system design | Go · Gin · PostgreSQL |
+| [golang-engineering-lab](https://github.com/ravichandra-eluri/golang-engineering-lab) | Curated backend patterns explaining concurrency, auth, observability, system design | Go · Gin · PostgreSQL |
 
 ## 🧠 Engineering Philosophy
 
