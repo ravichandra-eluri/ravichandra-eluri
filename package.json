@@ -1,0 +1,35 @@
+{
+  "name": "ravichandra-eluri-profile",
+  "version": "1.0.0",
+  "description": "I build distributed systems that still work when networks don't.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravichandra-eluri/ravichandra-eluri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravichandra-eluri/ravichandra-eluri/issues"
+  },
+  "homepage": "https://github.com/ravichandra-eluri/ravichandra-eluri#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "typescript": "^6.0.3"
+  }
+}
